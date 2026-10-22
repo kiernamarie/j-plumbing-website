@@ -32,7 +32,7 @@ header {
 }
 #home a {
     display: inline-block;
-    background-color: #123456;
+    background-color: #1a84ef;
     color: white;
     padding: 12px 24px;
     text-decoration: none;
@@ -76,10 +76,13 @@ header {
     border-radius: 8px;
 }
 footer {
-    background-color: #123456;
-    color: white;
+    background-color: #1f7ddc;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
+}
+footer a {
+    color: white;
 }
 @media (min-width: 768px) {
     #services {
