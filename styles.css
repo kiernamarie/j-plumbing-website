@@ -81,8 +81,12 @@ footer {
     text-align: center;
     padding: 20px;
 }
-footer a {
+footer a,
+footer a:link,
+footer a:visited,
+footer a[href^="tel:"] {
     color: white;
+    -webkit-text-fill-color: white;
 }
 @media (min-width: 768px) {
     #services {
